@@ -1,9 +1,13 @@
 
 
+mapearValores([1,2,3,4], num => num * 2);
 
-imprimirValores([1,2,3,4]);
 
-const iterable = {
+interface IterateNumber {
+  [Symbol.iterator](): IterableIterator<number>;
+}
+
+const iterable: IterateNumber = {
     [Symbol.iterator]: function* () {
         yield 1;
         yield 2;
@@ -12,7 +16,7 @@ const iterable = {
     }
 };
 
-imprimirValores(iterable);
+mapearValores(iterable, num => num * 2);
 
 const mapa = new Map<number, string>([
     [1, 'prueba1'],
@@ -21,4 +25,4 @@ const mapa = new Map<number, string>([
     [4, 'prueba4'],
 ]);
 
-imprimirValores(mapa);
+mapearValores<[number, string], string>(mapa, (val: [number, string] ) => val[1]);
