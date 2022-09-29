@@ -1,0 +1,160 @@
+[
+    {
+      "id": "62f90ea847beef38ee3f14d3",
+      "email": "caitlin_pugh@zillar.cz",
+      "usuario": "caitlin89",
+      "perfil": {
+        "nombre": "Caitlin Pugh",
+        "compania": "Zillar",
+        "f_nacimiento": "1989-07-20",
+        "direccion": "51 Eckford Street, Salvo, Delaware",
+        "ubicacion": {
+          "lat": 50.508825,
+          "long": -121.813101
+        },
+        "acerca": "Reprehenderit incididunt laborum irure enim aliqua pariatur esse excepteur culpa. Eu non Lorem fugiat eiusmod fugiat."
+      },
+      "roles": [
+        "invitado"
+      ]
+    },
+    {
+      "id": "62f90ea82a49a10912415c08",
+      "email": "wolfe_wise@lyria.wales",
+      "usuario": "wolfe91",
+      "perfil": {
+        "nombre": "Wolfe Wise",
+        "compania": "Lyria",
+        "f_nacimiento": "1991-07-25",
+        "direccion": "7 Hinsdale Street, Brandywine, West Virginia",
+        "ubicacion": {
+          "lat": -71.944064,
+          "long": 163.608631
+        },
+        "acerca": "Exercitation dolore elit ex consequat excepteur fugiat anim duis elit sit ex. Aliqua adipisicing duis consectetur dolor."
+      },
+      "roles": [
+        "miembro",
+        "invitado"
+      ]
+    },
+    {
+      "id": "62f90ea87dcffa7b93bf26e4",
+      "email": "hansen_lynn@ozean.day",
+      "usuario": "hansen90",
+      "perfil": {
+        "nombre": "Hansen Lynn",
+        "compania": "Ozean",
+        "f_nacimiento": "1990-06-02",
+        "direccion": "65 Turner Place, Franklin, Vermont",
+        "ubicacion": {
+          "lat": -36.686504,
+          "long": 144.131113
+        },
+        "acerca": "Ullamco minim nostrud quis esse culpa id velit quis irure velit ipsum exercitation mollit. Duis dolor do nostrud reprehenderit cupidatat reprehenderit ad cillum dolor consectetur est nulla in."
+      },
+      "roles": [
+        "invitado"
+      ]
+    },
+    {
+      "id": "62f90ea8f5f22aea2e041ac5",
+      "email": "patton_sims@elentrix.webcam",
+      "usuario": "patton92",
+      "perfil": {
+        "nombre": "Patton Sims",
+        "compania": "Elentrix",
+        "f_nacimiento": "1992-12-26",
+        "direccion": "24 Main Street, Shaft, Palau",
+        "ubicacion": {
+          "lat": -24.996371,
+          "long": 21.352587
+        },
+        "acerca": "Occaecat in incididunt sint in nostrud ullamco duis. Cupidatat cupidatat adipisicing minim ullamco sunt esse sit tempor occaecat pariatur."
+      },
+      "roles": [
+        "invitado",
+        "admin"
+      ]
+    },
+    {
+      "id": "62f90ea86bd91a448645659e",
+      "email": "mari_vazquez@freakin.dj",
+      "usuario": "mari89",
+      "perfil": {
+        "nombre": "Mari Vazquez",
+        "compania": "Freakin",
+        "f_nacimiento": "1989-03-03",
+        "direccion": "55 Virginia Place, Zeba, Colorado",
+        "ubicacion": {
+          "lat": 54.386953,
+          "long": 152.454161
+        },
+        "acerca": "Commodo esse irure nulla exercitation non dolore reprehenderit reprehenderit in mollit culpa voluptate pariatur tempor. Sunt laborum incididunt laboris Lorem irure minim do proident aliqua."
+      },
+      "roles": [
+        "admin",
+        "miembro"
+      ]
+    },
+    {
+      "id": "62f90ea8f311c5e453ead641",
+      "email": "hicks_everett@duoflex.ht",
+      "usuario": "hicks88",
+      "perfil": {
+        "nombre": "Hicks Everett",
+        "compania": "Duoflex",
+        "f_nacimiento": "1988-09-21",
+        "direccion": "59 Brigham Street, Lutsen, Rhode Island",
+        "ubicacion": {
+          "lat": -87.912995,
+          "long": -44.031913
+        },
+        "acerca": "Adipisicing velit dolore eiusmod elit eu exercitation ad. Irure nisi anim est aute."
+      },
+      "roles": [
+        "invitado",
+        "admin"
+      ]
+    },
+    {
+      "id": "62f90ea8145bb248272a34fc",
+      "email": "chen_lamb@anarco.dental",
+      "usuario": "chen93",
+      "perfil": {
+        "nombre": "Chen Lamb",
+        "compania": "Anarco",
+        "f_nacimiento": "1993-08-02",
+        "direccion": "85 Varet Street, Wright, Ohio",
+        "ubicacion": {
+          "lat": -18.886277,
+          "long": 12.780876
+        },
+        "acerca": "Dolor cupidatat veniam proident enim labore nisi duis. Pariatur nostrud velit enim aute non quis officia excepteur voluptate officia."
+      },
+      "roles": [
+        "admin",
+        "miembro"
+      ]
+    },
+    {
+      "id": "62f90ea8c86b0c89334fee60",
+      "email": "burns_camacho@gynko.sm",
+      "usuario": "burns94",
+      "perfil": {
+        "nombre": "Burns Camacho",
+        "compania": "Gynko",
+        "f_nacimiento": "1994-12-01",
+        "direccion": "88 Perry Terrace, Flintville, Illinois",
+        "ubicacion": {
+          "lat": -65.390107,
+          "long": -2.942287
+        },
+        "acerca": "Non nisi do do qui velit qui adipisicing mollit cillum veniam id excepteur nulla. Ipsum proident cillum officia voluptate eu cupidatat qui sit consequat officia id."
+      },
+      "roles": [
+        "miembro",
+        "admin"
+      ]
+    }
+  ]
