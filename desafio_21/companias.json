@@ -1,0 +1,32 @@
+[
+    {  
+        "nombre" : "Wetpaint",
+        "categoria" : "web",
+        "numEmpleados" : 47,
+        "annoFundacion" : 2005
+    },
+    {
+        "nombre" : "Zoho",
+        "categoria" : "software", 
+        "numEmpleados" : 1600, 
+        "annoFundacion" : 2005
+    },
+    {
+        "nombre" : "Digg", 
+        "categoria" : "news",
+        "numEmpleados" : 60,
+        "annoFundacion" : 2004
+    },
+    {  
+        "nombre" : "Facebook", 
+        "categoria" : "social", 
+        "numEmpleados" : 5299, 
+        "annoFundacion" : 2004
+    },
+    {
+        "nombre" : "Twitter", 
+        "categoria" : "social", 
+        "numEmpleados" : 1300, 
+        "annoFundacion" : 2006
+    }
+]
