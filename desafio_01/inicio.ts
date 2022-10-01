@@ -14,7 +14,7 @@ interface Acceso {
     contrasena: string;
 }
 
-type Usuario = Perfil & Acceso;
+type Usuario = ?
 
 function crearUsuario(perfil: Perfil, acceso: Acceso) {
     
