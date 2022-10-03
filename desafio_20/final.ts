@@ -26,9 +26,22 @@ interface Usuario {
     roles: Rol[];
 }
 
-function assert(condicion: unknown, mensaje: string): asserts condicion{
-    if(!condicion){
-        throw new Error(mensaje);
+function assertString(valor: unknown): asserts valor is string{
+    if(typeof valor !== 'string'){
+        throw new Error(`${valor} no es string`);
+    }
+}
+
+function assertNumber(valor: unknown): asserts valor is number{
+    if(typeof valor !== 'number'){
+        throw new Error(`${valor} no es number`);
+    }
+}
+
+function assertDate(valor: unknown): asserts valor is Date{
+    const timestamp = Date.parse(valor as string);
+    if(isNaN(timestamp)){
+        throw new Error(`${valor} no es una fecha válida`);
     }
 }
 
@@ -51,21 +64,6 @@ fetch(urlJson)
 .then(respuesta => respuesta.json())
 .then((datos: {}[]) => {
     return datos.map((dato: {})=>{
-        assert(typeof dato['id' as keyof typeof dato] === 'string', 'id no es string');
-        assert(typeof dato['email' as keyof typeof dato] === 'string', 'email no es string');
-        assert(typeof dato['usuario' as keyof typeof dato] === 'string', 'usuario no es string');
-        assert(typeof dato['perfil' as keyof typeof dato]['nombre'] === 'string', 'nombre no es string');
-        assert(typeof dato['perfil' as keyof typeof dato]['compania'] === 'string', 'compania no es string');
-        const timestamp = Date.parse(dato['perfil' as keyof typeof dato]['f_nacimiento']);
-        assert(!isNaN(timestamp), 'f_nacimiento no es una fecha válida');
-        assert(typeof dato['perfil' as keyof typeof dato]['direccion'] === 'string', 'direccion no es string');
-
-        assert(typeof dato['perfil' as keyof typeof dato]['ubicacion']['lat'] === 'number', 'lat no es número');
-        assert(typeof dato['perfil' as keyof typeof dato]['ubicacion']['long'] === 'number', 'long no es número');
-
-        assert(typeof dato['perfil' as keyof typeof dato]['acerca'] === 'string', 'acerca no es string');
-
-        assert(Array.isArray(dato['roles' as keyof typeof dato]), 'roles no es un arreglo');
 
         const usuario: Usuario = {
             id: dato['id' as keyof typeof dato],
@@ -84,6 +82,17 @@ fetch(urlJson)
             },
             roles: Array.from(dato['roles' as keyof typeof dato]).map(rol => obtenerRol(rol as string)),
         };
+
+        assertString(usuario.id);
+        assertString(usuario.email);
+        assertString(usuario.usuario);
+        assertString(usuario.perfil.nombre);
+        assertString(usuario.perfil.compania);
+        assertDate(usuario.perfil.fechaNacimiento);
+        assertString(usuario.perfil.direccion);
+        assertNumber(usuario.perfil.ubicacion.lat);
+        assertNumber(usuario.perfil.ubicacion.long);
+        assertString(usuario.perfil.acerca);
         return usuario;
     });
 }).then((usuarios: Usuario[]) => console.log(usuarios));
