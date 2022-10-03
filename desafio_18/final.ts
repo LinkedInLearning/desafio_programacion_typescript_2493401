@@ -82,7 +82,7 @@ class Datos<T extends Persona>{
     }
 
     filtrar<F>(filtro: FiltroGenerico<F, T>): T[]{
-        return this._datos.filter((valor: T) => filtro.func(valor[filtro.key as keyof T] as F))
+      return this._datos.filter((valor: T) => filtro.func(valor[filtro.key as keyof T] as unknown as F));
     }
 }
 
