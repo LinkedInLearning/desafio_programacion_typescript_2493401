@@ -14,7 +14,7 @@ Este repositorio tiene ramas (branches) para cada uno de los vídeos del curso. 
 
 ## Ramas
 
-Las ramas están estructuradas para corresponder a los vídeos del curso y la convención de nomenclatura es Vídeo#_i y Vídeo#_f. Todas las ramas tendrán un estado inicial y otro final. Están marcadas con las letras i («inicio») y f («fin»). La branch i tiene el código para desarrollar el ejercicio mientras que la branch f contiene la solución. Por ejemplo, la rama denominada `02_i` corresponde al segundo desafío y `02_f` contiene la solución.
+Las ramas están estructuradas para corresponder a los vídeos del curso y la convención de nomenclatura es desafío#_i y desafío#_f. Todas las ramas tendrán un estado inicial y otro final. Están marcadas con las letras i («inicio») y f («fin»). La branch i tiene el código para desarrollar el ejercicio mientras que la branch f contiene la solución. Por ejemplo, la rama denominada `02_i` corresponde al segundo desafío y `02_f` contiene la solución.
 
 ## Instalación
 
