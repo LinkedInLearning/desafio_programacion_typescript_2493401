@@ -1,12 +1,12 @@
-# Nombre final del curso
+# Desafío de programación: TypeScript
 
-Este es el repositorio del curso de LinkedIn Learning `[nombre del curso]`. El curso completo está disponible en [LinkedIn Learning][lil-course-url].
+Este es el repositorio del curso de LinkedIn Learning `[Desafío de programación: TypeScript]`. El curso completo está disponible en [LinkedIn Learning][lil-course-url].
 
 ![Nombre completo del curso][lil-thumbnail-url][Copy&Past Image from LiL-Buddy] 
 
 Consulta el archivo Readme en la rama main para obtener instrucciones e información actualizadas.
 
-DESCRIPCIÓN DEL CURSO
+Este contenido te brinda ejercicios para practicar las diferentes capacidades de TypeScript, el lenguaje libre y de código abierto de Microsoft. Durante el curso, se te ofrecerán diferentes ejercicios de programación de ejemplo para practicar escribiendo código para TypeScript. No obstante, el código se basa en casos reales y posteriormente podrá ser aplicado para construir tus propias aplicaciones web.
 
 ## Instrucciones
 
@@ -32,7 +32,7 @@ Los ejercicios que requieren cargar archivos JSON (desafíos 20 y 21), puedes ut
 
 **Natalia Corea**
 
-Echa un vistazo a mis otros cursos en [LinkedIn Learning](https://www.linkedin.com/learning/instructors/).
+Echa un vistazo a mis otros cursos en [LinkedIn Learning](https://www.linkedin.com/learning/instructors/natalia-corea).
 
 [0]: # (Replace these placeholder URLs with actual course URLs)
 [lil-course-url]: https://www.linkedin.com/learning/building-a-graphql-project-with-react-js
