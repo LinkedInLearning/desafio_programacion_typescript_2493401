@@ -6,6 +6,7 @@ Este es el repositorio del curso de LinkedIn Learning `[Desafío de programació
 
 Consulta el archivo Readme en la rama main para obtener instrucciones e información actualizadas.
 
+## Descripción del curso
 Este contenido te brinda ejercicios para practicar las diferentes capacidades de TypeScript, el lenguaje libre y de código abierto de Microsoft. Durante el curso, se te ofrecerán diferentes ejercicios de programación de ejemplo para practicar escribiendo código para TypeScript. No obstante, el código se basa en casos reales y posteriormente podrá ser aplicado para construir tus propias aplicaciones web.
 
 ## Instrucciones
